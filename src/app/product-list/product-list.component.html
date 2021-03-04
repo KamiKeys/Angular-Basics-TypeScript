@@ -1,20 +1,21 @@
 <h2>Productos</h2>
 
 <div *ngFor="let pollo of products">
-  <h3>
-    <a [title]="pollo.name + ' details'">
-      {{ pollo.name }}
-    </a>
-  </h3>
-  <p *ngIf="pollo.description">
-    Description: {{ pollo.description }}
-  </p>
-  <p *ngIf="pollo.price">
-    Price: {{ pollo.price }}€
-  </p>
-    <button (click)="share()">
-    Share
-  </button>
-  <app-product-alerts [product]="pollo" (polleteDeLaVentana)="onPollete()">
-  </app-product-alerts>
+	<h3>
+		<a [title]="pollo.name + ' details'">
+			{{ pollo.name }}
+		</a>
+	</h3>
+	<p *ngIf="pollo.description">
+		Description: {{ pollo.description }}
+	</p>
+	<p *ngIf="pollo.price">
+		Price: {{ pollo.price }}€
+	</p>
+	<div>
+		<button (click)="share()">
+      Share
+    </button>
+		<app-product-alerts [product]="pollo" (polleteDeLaVentana)="onPollete()"></app-product-alerts>
+	</div>
 </div>
