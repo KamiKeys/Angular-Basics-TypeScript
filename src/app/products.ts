@@ -1,21 +1,24 @@
 export const products = [
   {
     id: 1,
-    name: "Phone XL",
-    price: 799,
-    description: "A large phone with one of the best screens"
+    name: "OnePlus 8T",
+    price: 599,
+    description: "El último teléfono OnePlus con una T",
+    available: true
   },
   {
     id: 2,
-    name: "Phone Mini",
-    price: 99,
-    description: "A great phone with one of the best cameras"
+    name: "OnePlus 8 Pro",
+    price: 809,
+    description: "El último teléfono OnePlus pero Pro",
+    available: true
   },
   {
     id: 3,
-    name: "Phone Standard",
-    price: 299,
-    description: ""
+    name: "OnePlus Nord",
+    price: 399,
+    description: "",
+    available: false
   }
 ];
 

@@ -1,3 +1,2 @@
-# angular-kjxfbp-j6zniu
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-kjxfbp-j6zniu)
+# Angular-Basics-TypeScript  
+Proyecto para obtener los conocimientos básicos sobre Angular TypeScript.

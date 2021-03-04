@@ -9,7 +9,10 @@
   <p *ngIf="pollo.description">
     Description: {{ pollo.description }}
   </p>
-  <button (click)="share()">
+  <p *ngIf="pollo.price">
+    Price: {{ pollo.price }}€
+  </p>
+    <button (click)="share()">
     Share
   </button>
   <app-product-alerts [product]="pollo" (polleteDeLaVentana)="onPollete()">
